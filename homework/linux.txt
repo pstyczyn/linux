@@ -22,7 +22,6 @@
 167:vboxuser    1696  0.0  0.6 2662880 26924 ?       Sl   12:50   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
 192:vboxuser    1956  0.0  1.4 870140 56464 ?        Sl   12:50   0:00 /usr/bin/gnome-calendar --gapplication-service
 195:root        2747  0.0  0.0   6064  3972 tty3     Ss   12:52   0:00 /bin/login -p --
-  293  ls -l
   294  cd example/
   295  touch processes.txt
   296  ls-l
@@ -127,3 +126,16 @@
   395  history | tail -n103 | less
   396  history | tail -n105 | less
   397  history | tail -n105 | less > commands.txt
+  398  ls -l
+  399  less commands.txt 
+  400  clear
+  401  man cat
+  402  clear
+  403  cat selected.txt commands.txt 
+  404  clear
+  405  cat selected.txt commands.txt | less
+  406  cat selected.txt commands.txt > result.txt
+  407  history
+  408  history | less
+  409  history | tail -n116 > commands.txt
+
