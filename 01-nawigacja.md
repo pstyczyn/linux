@@ -25,3 +25,5 @@
 *  względne - względem aktualnego katalogu (`pwd`)
 
 Hello Coders School
+Hello World
+sth more
