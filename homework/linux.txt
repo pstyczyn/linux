@@ -1,0 +1,141 @@
+208 processes.txt
+96:message+     603  0.0  0.1   9952  6484 ?        Ss   12:50   0:08 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+99:root         620  0.0  0.5  42856 20764 ?        Ss   12:50   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+114:root         708  0.0  0.5 121032 22576 ?        Ssl  12:50   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+115:whoopsie     806  0.0  0.3 253244 15644 ?        Ssl  12:50   0:00 /usr/bin/whoopsie -f
+119:root         984  0.1  0.0 358464  2228 ?        Sl   12:50   0:20 /usr/bin/VBoxDRMClient
+126:vboxuser    1342  0.0  0.4 961432 19840 ?        S<sl 12:50   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+127:vboxuser    1345  0.0  0.2 243060  8076 ?        Sl   12:50   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+128:vboxuser    1350  0.0  0.2  10808  8040 ?        Ss   12:50   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+129:vboxuser    1352  0.0  0.1 166920  6796 tty2     Ssl+ 12:50   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+132:vboxuser    1435  0.0  0.0  22228   356 ?        S    12:50   0:00 /usr/bin/VBoxClient --clipboard
+133:vboxuser    1437  0.0  0.8 229160 34720 ?        Sl   12:50   0:00 /usr/bin/VBoxClient --clipboard
+134:vboxuser    1443  0.0  0.0  22228   356 ?        S    12:50   0:00 /usr/bin/VBoxClient --seamless
+135:vboxuser    1445  0.2  0.0 220384  2320 ?        Sl   12:50   0:24 /usr/bin/VBoxClient --seamless
+136:vboxuser    1451  0.0  0.0  22228   352 ?        S    12:50   0:00 /usr/bin/VBoxClient --draganddrop
+137:vboxuser    1453  0.7  0.0 286436  2256 ?        Sl   12:50   1:30 /usr/bin/VBoxClient --draganddrop
+138:vboxuser    1463  0.0  0.0  22228   356 ?        S    12:50   0:00 /usr/bin/VBoxClient --vmsvga-session
+139:vboxuser    1465  0.0  0.0 225212  3388 ?        Sl   12:50   0:08 /usr/bin/VBoxClient --vmsvga-session
+140:vboxuser    1473  0.0  0.0   6044   456 ?        Ss   12:50   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+142:vboxuser    1496  0.0  0.1   7380  4452 ?        S    12:50   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+145:vboxuser    1542  0.4  9.8 4599156 393740 ?      Ssl  12:50   0:53 /usr/bin/gnome-shell
+167:vboxuser    1696  0.0  0.6 2662880 26924 ?       Sl   12:50   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+192:vboxuser    1956  0.0  1.4 870140 56464 ?        Sl   12:50   0:00 /usr/bin/gnome-calendar --gapplication-service
+195:root        2747  0.0  0.0   6064  3972 tty3     Ss   12:52   0:00 /bin/login -p --
+  294  cd example/
+  295  touch processes.txt
+  296  ls-l
+  297  ls -l
+  298  ps aux
+  299  less ps aux
+  300  more
+  301  more ps
+  302  more ps aux
+  303  ps aux
+  304  cp ps processes.txt
+  305  cat ps
+  306  grep root ps
+  307  clear
+  308  ps aux
+  309  man ps
+  310  clear
+  311  wc ps aux
+  312  man cp
+  313  ls -l
+  314  clear
+  315  ps aux > processes.txt 
+  316  ls -l
+  317  less processes.txt 
+  318  fg
+  319  top
+  320  clear
+  321  fg
+  322  ps
+  323  fg
+  324  ps
+  325  kill 27064
+  326  ps
+  327  kill 27065
+  328  ps
+  329  fg
+  330  clear
+  331  ps
+  332  less processes.txt 
+  333  clear
+  334  cp processes.txt copy.txt
+  335  ls -l
+  336  less copy.txt 
+  337  clear
+  338  mkdir backup
+  339  ls -l
+  340  mv copy.txt backup
+  341  ls -l
+  342  cd backup/
+  343  ls -l
+  344  cd ..
+  345  cd backup/
+  346  less copy.txt 
+  347  clear
+  348  cd ..
+  349  man wc
+  350  clear
+  351  cd backup/
+  352  cd ..
+  353  man wc
+  354  clear
+  355  wc -l processes.txt 
+  356  wc -l processes.txt > selected.txt
+  357  ls -l
+  358  less selected.txt 
+  359  man grep
+  360  clear
+  361  grep -n /bin *
+  362  clear
+  363  grep -n /bin *
+  364  grep -n /bin * | less
+  365  clear
+  366  ls -l
+  367  grep -n /bin processes.txt 
+  368  grep -n /bin processes.txt | less
+  369  clear
+  370  grep -n /bin processes.txt >> selected.txt
+  371  ls -l
+  372  less selected.txt 
+  373  clear
+  374  history
+  375  history | less
+  376  clear
+  377  man find
+  378  man tail
+  379  clear
+  380  history less
+  381  less history
+  382  history | less
+  383  clear
+  384  ls -l
+  385  find history -name | tail -n100
+  386  history | less
+  387  clear
+  388  man find
+  389  clear
+  390  find history | tail -n100
+  391  history | tail -n100
+  392  q
+  393  clear
+  394  history | tail -n100 | less
+  395  history | tail -n103 | less
+  396  history | tail -n105 | less
+  397  history | tail -n105 | less > commands.txt
+  398  ls -l
+  399  less commands.txt 
+  400  clear
+  401  man cat
+  402  clear
+  403  cat selected.txt commands.txt 
+  404  clear
+  405  cat selected.txt commands.txt | less
+  406  cat selected.txt commands.txt > result.txt
+  407  history
+  408  history | less
+  409  history | tail -n116 > commands.txt
+
